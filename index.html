@@ -1,0 +1,76 @@
+<html>
+    <header>
+        <meta charset="utf-8">
+        <title>Home Page</title>
+        <style>
+            @font-face {
+                font-family: Pompadur; /* Имя шрифта */
+                src: url(fonts/pompadur.ttf); /* Путь к файлу со шрифтом */
+            }
+
+            .h1 {
+                text-transform: uppercase;
+                color: lightblue;
+            }
+
+            #main {
+                width: 100%;
+                color: #555;
+            }
+
+            ul li {
+                text-transform: uppercase;
+            }
+
+            p.first a {
+                color: green;
+            }
+
+
+            .wrapper { 
+                font-size: 20px; 
+            }
+            .wrapper span { 
+                font-size: 0.5em; 
+                background: #FC9; 
+            }
+            .wrapper span i { 
+                font-size: 1.5em; 
+                background: yellow; 
+            }
+
+
+        </style>
+    </header>
+    <body>
+        
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Anout</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="header">
+            <h1 class="h1">Home Page</h1>
+        </div>
+        
+        <div id="main">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium saepe placeat quisquam, eveniet aliquam ipsum amet cupiditate repudiandae obcaecati, impedit aperiam. Expedita, nobis odit. Dolor eius aut quisquam laboriosam recusandae?
+            <p class="first">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="">Accusantium</a> saepe placeat quisquam, eveniet aliquam ipsum amet cupiditate repudiandae obcaecati, <span><a href="">Accusantium</a> impedit aperiam. Expedita, nobis odit. Dolor eius aut quisquam laboriosam recusandae?</span>
+            </p>
+            <p>
+                    <span class="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="">Accusantium</a> saepe placeat quisquam, eveniet aliquam ipsum amet cupiditate repudiandae obcaecati, impedit aperiam. <a href="">Expedita</a>, nobis odit. Dolor eius aut quisquam laboriosam recusandae?</span>
+            </p>
+            <div class="wrapper">
+                    Размер шрифта: 20px
+                    <span>
+                            Размер шрифта: 10px
+                            <i>Размер шрифта: 15px </i>
+                    </span>
+            </div>
+            
+        </div>
+        <div class="footer">My Website</div>
+    </body>
+</html>
