@@ -1,0 +1,56 @@
+$columns: 12;
+
+$gutter: .3rem;
+
+
+  
+.badge{
+	position: relative;
+	width: 240px;
+	height: 240px;
+	display: inline-block;
+	margin: 40px;
+	background: #2B2B2B;
+	border-radius: 8px;
+	overflow: hidden;
+
+.title{
+	  font-family: "Montserrat", sans-serif;
+	  font-weight: bold;
+	  font-size: 1.7em;
+	  position: absolute;
+	  top: -28px;
+	  border-radius: 8px 8px 0 0;
+	  text-align: center;
+	  width: 100%;
+	  padding: 20px 0;
+	}
+
+.subtitle{
+	  position: absolute;
+	  font-family: "Fjalla One", sans-serif;
+	  font-size: 1.8em;
+	  width: 100%;
+	  text-align: center;
+	  color: white;
+	  position: absolute;
+	  top: 115px;
+	  transition: all .3s;
+	  &:after{
+		  content: "★";
+		  display: block;
+		  font-size: 1.4em;
+		  position: relative;
+		  margin: 12px 0 0;
+		  transition: all .3s;
+		}
+	}
+	&:hover .subtitle:after{
+		  margin: -5px 0 0;
+	}
+	&:hover .subtitle{
+		  top: 100px;
+	}
+  }
+ 
+
